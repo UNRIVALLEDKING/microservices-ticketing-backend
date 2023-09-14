@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: auth
-          image: us.gcr.io/ticketing-dev-397814/auth
+          # image: us.gcr.io/ticketing-dev-397814/auth
+          image: unrivalledking/auth
 
 ---
 apiVersion: v1
